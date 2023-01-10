@@ -26,6 +26,9 @@ div#navbarNav {
 .navbar-toggler-icon {
   background-image: url(../img/menuHamburguesa.png) !important;
 }
+.negrita{
+  color: #eecb42;
+}
 
 /*Reparaciones*/
 .div-imgen {
@@ -36,7 +39,9 @@ div#navbarNav {
 a:link, a:visited, a:active {
   text-decoration:none;
 }
-
+a.link-alkima {
+  color: blueviolet;
+}
 .titulo-reparaciones {
   text-align: center;
   padding: 20px;
@@ -307,10 +312,11 @@ a:link, a:visited, a:active {
   padding-top: 50px;
 }
 .div-textos {
+  margin-top: 80px;
   margin-left: 5px;
   margin-right: 5px;
 }
-.div-textos h1,
+.div-textos h2,
 .div-textos h4 {
   text-align: center;
   padding-bottom: 5px;
@@ -339,7 +345,7 @@ a:link, a:visited, a:active {
   margin-left: 10px;
   margin-right: 10px;
 }
-.div-texto h1 {
+.div-texto h2 {
   color: #efc620;
   font-weight: 600;
   text-align: center;
@@ -803,6 +809,7 @@ form .button input:hover {
     font-size: 20px;
   }
   .div-texto {
+    margin-top: 80px;
     margin-left: 100px;
     margin-right: 100px;
   }
@@ -896,7 +903,7 @@ form .button input:hover {
     margin-left: 100px;
     margin-top: 50px;
   }
-  .div-textos h1,
+  .div-textos h2,
   .div-textos h4 {
     text-align: start;
     font-size: 35px;
@@ -914,7 +921,7 @@ form .button input:hover {
   .div-texto {
     margin-left: 150px;
     margin-right: 150px;
-    padding-top: 70px;
+    
   }
   .btn {
     font-size: 20px;
